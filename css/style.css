@@ -1,0 +1,247 @@
+html,
+body {
+  font-family: "Poppins";
+  font-style: normal;
+  background-color: #fafafa;
+}
+.text-logo {
+  color: #2a98de;
+}
+h1 {
+  font-size: 45px;
+  font-weight: 700;
+}
+h2 {
+  font-weight: 700;
+}
+h5 {
+  font-weight: 600;
+  font-size: 19px;
+}
+h6 {
+  color: #191b1b;
+  font-size: 17px;
+}
+.subtitle-biru-hero {
+  color: #2a98de;
+  font-size: 17px;
+}
+.subtitle-hero {
+  color: #929394;
+  font-size: 16px;
+}
+p {
+  color: #929394;
+  font-size: 16px;
+}
+.text-rating {
+  color: #191a1b;
+  font-size: 11px;
+}
+.logo {
+  margin-right: 10px;
+  font-size: large;
+  font-weight: 500;
+  color: blue;
+}
+.logo span {
+  font-size: large;
+  font-weight: 400px;
+}
+.navbar-brand {
+  margin-right: 60px;
+  color: blue;
+  font-weight: 600;
+}
+
+.btn-birumuda {
+  background-color: #e8f1fb;
+  color: #2f7edf;
+  width: 160px;
+  border-radius: 30px;
+}
+.btn-box-hero {
+  background-color: #e8f1fb;
+  color: #2f7edf;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.btn-primary {
+  width: 150px;
+  border-radius: 30px;
+}
+.btn-specialist {
+  width: 205px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #0d6efd;
+  color: white;
+}
+.btn-specialist:hover {
+  background-color: #e8f1fb;
+  color: #2f7edf;
+  width: 205px;
+  border-radius: 10px;
+}
+.link-biru {
+  color: #0d6efd;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+.img-hero {
+  position: absolute;
+  left: 970px;
+  top: 68px;
+  z-index: 0;
+}
+
+.img-reason {
+  position: relative;
+  left: 50px;
+  top: 0px;
+  z-index: 0;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+#categories {
+  background-color: white;
+}
+.title-specialist {
+  font-size: 20px;
+}
+.title-categori {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.title-box-hero {
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+.title-box-hero-rating {
+  font-size: 15px;
+  margin-bottom: 0px;
+  color: #2f7edf;
+}
+.categori {
+  margin-left: 10px;
+}
+.categori-box {
+  background-color: #f3f8fd;
+  border-radius: 10px;
+  border: none;
+}
+.categori:hover {
+  color: #2f7edf;
+  border-color: #2f7edf;
+}
+.hero {
+  background-color: #fafbfc;
+}
+.hero-box {
+  border-radius: 10px;
+  border: none;
+  background-color: #ffffff;
+  position: absolute;
+  margin-left: -30px;
+  width: 12%;
+  box-shadow: 0px 15px 20px rgba(227, 227, 228, 0.74);
+}
+.box-biru {
+  border-radius: 50px 20px 50px 20px;
+  border: none;
+  background-color: #2f7edf;
+  position: absolute;
+  width: 23%;
+  height: 60%;
+  margin-left: 870px;
+  margin-top: 24px;
+  z-index: 0;
+}
+.box-birumuda {
+  border-radius: 50px 20px 50px 20px;
+  border: none;
+  background-color: #bddeff;
+  position: absolute;
+  width: 23%;
+  height: 67%;
+  margin-left: 100px;
+  margin-top: 70px;
+  z-index: 0;
+  opacity: 30px;
+}
+
+.hero-box-rating {
+  border-radius: 10px;
+  border: none;
+  background-color: #ffffff;
+  position: absolute;
+  width: 18%;
+  margin-left: 300px;
+  margin-top: 310px;
+  box-shadow: 0px 5px 10px rgba(227, 227, 228, 0.74);
+  z-index: 2;
+}
+
+.reason-box-rating {
+  border-radius: 10px;
+  border: none;
+  background-color: #ffffff;
+  position: absolute;
+  width: 13%;
+  margin-left: 0px;
+  margin-top: 220px;
+  box-shadow: 0px 5px 10px rgba(227, 227, 228, 0.74);
+  z-index: 2;
+}
+
+.subtitle-box-hero {
+  color: #929394;
+  font-size: 12px;
+}
+#specialist-categori {
+  background-color: white;
+}
+.image-specialist {
+  width: 210px;
+  height: 250px;
+  margin-right: 30px;
+}
+.star-rating {
+  width: 15px;
+}
+
+.detail-benefit {
+  color: #f4a16e;
+  font-weight: 600;
+  font-size: 15px;
+  margin-right: 10px;
+  margin-top: 6px;
+}
+.benefit-box {
+  border-radius: 15px;
+  border: none;
+  padding: 10px 10px 10px 15px;
+  box-shadow: 0px 5px 20px rgba(227, 227, 228, 0.74);
+}
+.img-benefit {
+  max-width: 60px;
+  margin-bottom: 15px;
+}
+#reason {
+  background-color: #fafbfc;
+}
+
+.reason-box {
+  border-radius: 10px;
+  padding: 5px;
+  border: none;
+  background-color: #ffffff;
+  width: 75%;
+  height: 27%;
+  box-shadow: 0px 15px 20px rgba(227, 227, 228, 0.74);
+  margin-bottom: 13px;
+}
