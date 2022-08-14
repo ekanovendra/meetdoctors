@@ -48,17 +48,28 @@ p {
   font-size: large;
   font-weight: 400px;
 }
+.navbar {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 .navbar-brand {
   margin-right: 60px;
   color: blue;
   font-weight: 600;
 }
+.nav-item {
+  font-size: 18px;
+  word-spacing: 5px;
+  margin-right: 20px;
+}
 
 .btn-birumuda {
   background-color: #e8f1fb;
   color: #2f7edf;
+  font-weight: 500;
   width: 160px;
   border-radius: 30px;
+  height: 43px;
 }
 .btn-box-hero {
   background-color: #e8f1fb;
@@ -71,6 +82,7 @@ p {
 .btn-primary {
   width: 150px;
   border-radius: 30px;
+  height: 43px;
 }
 .btn-specialist {
   width: 205px;
@@ -93,13 +105,13 @@ p {
 .img-hero {
   position: absolute;
   left: 970px;
-  top: 68px;
+  top: 90px;
   z-index: 0;
 }
 
 .img-reason {
   position: relative;
-  left: 50px;
+  left: 70px;
   top: 0px;
   z-index: 0;
   -webkit-transform: scaleX(-1);
@@ -122,9 +134,10 @@ p {
   margin-bottom: 0px;
 }
 .title-box-hero-rating {
-  font-size: 15px;
+  font-size: 13px;
   margin-bottom: 0px;
   color: #2f7edf;
+  margin-left: 10px;
 }
 .categori {
   margin-left: 10px;
@@ -147,6 +160,7 @@ p {
   background-color: #ffffff;
   position: absolute;
   margin-left: -30px;
+  margin-top: 40px;
   width: 12%;
   box-shadow: 0px 15px 20px rgba(227, 227, 228, 0.74);
 }
@@ -160,6 +174,7 @@ p {
   margin-left: 870px;
   margin-top: 24px;
   z-index: 0;
+  opacity: 0.9;
 }
 .box-birumuda {
   border-radius: 50px 20px 50px 20px;
@@ -168,7 +183,7 @@ p {
   position: absolute;
   width: 23%;
   height: 67%;
-  margin-left: 100px;
+  margin-left: 120px;
   margin-top: 70px;
   z-index: 0;
   opacity: 30px;
@@ -179,9 +194,9 @@ p {
   border: none;
   background-color: #ffffff;
   position: absolute;
-  width: 18%;
+  width: 15%;
   margin-left: 300px;
-  margin-top: 310px;
+  margin-top: 340px;
   box-shadow: 0px 5px 10px rgba(227, 227, 228, 0.74);
   z-index: 2;
 }
@@ -192,7 +207,7 @@ p {
   background-color: #ffffff;
   position: absolute;
   width: 13%;
-  margin-left: 0px;
+  margin-left: 40px;
   margin-top: 220px;
   box-shadow: 0px 5px 10px rgba(227, 227, 228, 0.74);
   z-index: 2;
@@ -211,7 +226,12 @@ p {
   margin-right: 30px;
 }
 .star-rating {
-  width: 15px;
+  width: 13px;
+  margin-top: 0px;
+}
+.star-rating-testimoni {
+  width: 16px;
+  margin-top: 0px;
 }
 
 .detail-benefit {
@@ -240,8 +260,50 @@ p {
   padding: 5px;
   border: none;
   background-color: #ffffff;
-  width: 75%;
   height: 27%;
   box-shadow: 0px 15px 20px rgba(227, 227, 228, 0.74);
   margin-bottom: 13px;
+}
+
+.articles-box {
+  border-radius: 25px;
+  border-color: #c7dbf1;
+}
+
+.btn-readnow {
+  background-color: #e8f1fb;
+  color: #2f7edf;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.card-body {
+  padding: 20px;
+}
+.card-title {
+  font-size: 17px;
+}
+
+.testimoni-box {
+  border-radius: 10px;
+  box-shadow: 0px 15px 20px rgba(227, 227, 228, 0.74);
+  padding-left: 10px;
+  border: none;
+}
+.footer {
+  background-color: #1876dc;
+  color: white;
+}
+.list-footer {
+  color: white;
+  margin-bottom: 5px;
+}
+.desc-footer {
+  margin-left: 50px;
+  color: white;
+  margin-top: 20px;
+}
+.title-footer {
+  color: white;
 }
