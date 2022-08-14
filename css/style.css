@@ -5,10 +5,10 @@ body {
   background-color: #fafafa;
 }
 .text-logo {
-  color: #2a98de;
+  color: #0d6efd;
 }
 h1 {
-  font-size: 45px;
+  font-size: 43px;
   font-weight: 700;
 }
 h2 {
@@ -34,6 +34,11 @@ p {
   color: #929394;
   font-size: 16px;
 }
+
+.text-hero {
+  color: #929394;
+  font-size: 13px;
+}
 .text-rating {
   color: #191a1b;
   font-size: 11px;
@@ -58,7 +63,7 @@ p {
   font-weight: 600;
 }
 .nav-item {
-  font-size: 18px;
+  font-size: 17px;
   word-spacing: 5px;
   margin-right: 20px;
 }
@@ -104,7 +109,7 @@ p {
 }
 .img-hero {
   position: absolute;
-  left: 970px;
+  left: 900px;
   top: 90px;
   z-index: 0;
 }
@@ -159,9 +164,9 @@ p {
   border: none;
   background-color: #ffffff;
   position: absolute;
-  margin-left: -30px;
+  margin-left: -100px;
   margin-top: 40px;
-  width: 12%;
+  width: 13%;
   box-shadow: 0px 15px 20px rgba(227, 227, 228, 0.74);
 }
 .box-biru {
@@ -171,7 +176,7 @@ p {
   position: absolute;
   width: 23%;
   height: 60%;
-  margin-left: 870px;
+  margin-left: 830px;
   margin-top: 24px;
   z-index: 0;
   opacity: 0.9;
@@ -268,6 +273,8 @@ p {
 .articles-box {
   border-radius: 25px;
   border-color: #c7dbf1;
+  border: none;
+  box-shadow: 0px 15px 20px rgba(227, 227, 228, 0.74);
 }
 
 .btn-readnow {
@@ -300,7 +307,6 @@ p {
   margin-bottom: 5px;
 }
 .desc-footer {
-  margin-left: 50px;
   color: white;
   margin-top: 20px;
 }
