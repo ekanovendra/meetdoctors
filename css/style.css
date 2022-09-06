@@ -7,6 +7,7 @@ body {
 .text-logo {
   color: #0d6efd;
 }
+
 h1 {
   font-size: 43px;
   font-weight: 700;
@@ -116,9 +117,9 @@ p {
 
 .img-reason {
   position: relative;
-  left: 70px;
-  top: 0px;
-  z-index: 0;
+  left: -20px;
+  top: 70px;
+  z-index: 2;
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 }
@@ -212,10 +213,10 @@ p {
   background-color: #ffffff;
   position: absolute;
   width: 13%;
-  margin-left: 40px;
-  margin-top: 220px;
+  margin-left: 0px;
+  margin-top: 120px;
   box-shadow: 0px 5px 10px rgba(227, 227, 228, 0.74);
-  z-index: 2;
+  z-index: 1;
 }
 
 .subtitle-box-hero {
@@ -312,4 +313,64 @@ p {
 }
 .title-footer {
   color: white;
+}
+.left-page-login {
+  background-color: #ffffff;
+  height: 655px;
+  padding: 100px;
+}
+.header-title {
+  background-color: #ffffff;
+  margin-top: 100px;
+  padding-left: 100px;
+}
+.btn-primary-login {
+  width: 100%;
+  border-radius: 30px;
+  height: 45px;
+  background-color: #1876dc;
+  color: #ffffff;
+}
+.btn-birumuda-login {
+  width: 100%;
+  border-radius: 30px;
+  height: 45px;
+  background-color: #e8f1fb;
+  color: #6c757d;
+}
+
+.form-control {
+  border-radius: 30px;
+  height: 45px;
+}
+.bg-birumuda {
+  background-color: #fafbfc;
+  height: 655px;
+}
+.right-textlogin {
+  padding: 90px 90px 0px 90px;
+  line-height: 30px;
+  margin-top: 50px;
+  font-style: italic;
+}
+.right-img-login {
+  padding: 15px 0px 0px 90px;
+}
+.right-text-doctor {
+  font-size: 15px;
+  font-weight: 600;
+  color: #1876dc;
+}
+.right-text-expertis {
+  font-size: 13px;
+  color: rgb(92, 89, 89);
+}
+.box-doctor-login {
+  margin-left: -30px;
+}
+.tanda-petik {
+  color: #1876dc;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-right: 5px;
 }
